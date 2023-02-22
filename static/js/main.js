@@ -4,6 +4,17 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+const messages = document.querySelector('.messages');
+if(messages){
+    const xmark = messages.querySelector('.xmark');
+
+    xmark.addEventListener('click', function(){
+        messages.remove();
+    })
+}
+
+
 (function() {
   "use strict";
 
